@@ -22,6 +22,7 @@ var movement = Vector3()
 # nodes
 onready var head = $Head
 onready var camera = $Head/Camera
+onready var hand = $Head/Camera/Hand
 onready var gun1 = $Head/Hand/Gun1
 onready var gun2 = $Head/Hand/Gun2
 onready var gun3 = $Head/Hand/Gun3
